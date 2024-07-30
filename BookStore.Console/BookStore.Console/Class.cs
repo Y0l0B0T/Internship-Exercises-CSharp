@@ -26,7 +26,7 @@ public class BookStore
         Console.WriteLine($"Wellcome {customerName} to Book Store. Just try reading for 15 min per day, and you need Discipline! ");
     }
 
-    public void QueForReadingEvents(string eventName,string customerName)
+    public void QueForReadingEvents(string customerName, string eventName)
     {
         Console.WriteLine($"With Regards to {customerName}, This is Your Invitation For the {eventName} Event.");
     }
