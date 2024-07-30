@@ -1,6 +1,6 @@
 public class BookStore 
 {
-     public string Name { get; set; }
+    public string Name { get; set; }
     public string Address { get; set; }
     public bool HasCafe { get; set; }
     public bool HasStudyPlace { get; set; }
@@ -15,19 +15,19 @@ public class BookStore
         HasStationery = false;
     }
 
-    public void SellBooks()
+    public void SellBooks(string bookname)
     {
-        Console.WriteLine($"Selling Book in {Name} BookStore ");
+        Console.WriteLine($"Thanks For Buying {bookname} Book From {Name} BookStore.");
     }
 
 
     public void Advice(string customerName)
     {
-        Console.WriteLine($"Helping {customerName} To Choose a Book For Read in {Name} BookStore ");
+        Console.WriteLine($"Wellcome {customerName} to Book Store. Just try reading for 15 min per day, and you need Discipline! ");
     }
 
-    public void QueForReadingEvents()
+    public void QueForReadingEvents(string eventName,string customerName)
     {
-        Console.WriteLine($"Queuing Users For the Reading Event in {Name} BookStore");
+        Console.WriteLine($"With Regards to {customerName}, This is Your Invitation For the {eventName} Event.");
     }
 }
