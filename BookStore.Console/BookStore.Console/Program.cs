@@ -4,10 +4,10 @@ class Program
     {
         BookStore blueBookStore = new BookStore("Blue");
 
-        blueBookStore.SellBooks();
+        blueBookStore.SellBooks("Atomic habits");
         blueBookStore.Advice("Esmaeel");
-        blueBookStore.QueForReadingEvents();
-        blueBookStore.Address = "Shiraz/Qodoosi";
+        blueBookStore.QueForReadingEvents("Ali", "Reading Book");
+        blueBookStore.Address = "Shiraz/Ghoddoosi Gharbi";
         blueBookStore.HasCafe = true;
         blueBookStore.HasStudyPlace = true;
         blueBookStore.HasStationery = true;
