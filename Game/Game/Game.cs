@@ -1,12 +1,9 @@
 public class Game
 {
-    private int HiddenNum;
     private int GuessNumber;
 
-    public Game(int hiddenNum)
-    {
-        HiddenNum = hiddenNum;
-    }
+    public Game()
+    {}
 
     public void GuessNumbers()
     {
@@ -28,6 +25,7 @@ public class Game
     }
     public void StartGame()
     {
+        int HiddenNum = 0;
         HiddenNum = GenerateRandomNumber();
         int WrongCounter = 0;
         while (true)
