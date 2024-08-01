@@ -3,7 +3,7 @@
         static void Main()
         {
             Game.TitleAndRules();
-            var GuessNumberGame = new Game(0);
+            var GuessNumberGame = new Game();
             GuessNumberGame.StartGame();
         }
     }
