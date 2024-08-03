@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameNet", "GameNet\GameNet.csproj", "{A581F358-3F3A-46CD-A925-D80103BEBEDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B527F9E2-BAA4-4D0D-A77B-D6E2C5CBD71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B527F9E2-BAA4-4D0D-A77B-D6E2C5CBD71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B527F9E2-BAA4-4D0D-A77B-D6E2C5CBD71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B527F9E2-BAA4-4D0D-A77B-D6E2C5CBD71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A581F358-3F3A-46CD-A925-D80103BEBEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A581F358-3F3A-46CD-A925-D80103BEBEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A581F358-3F3A-46CD-A925-D80103BEBEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A581F358-3F3A-46CD-A925-D80103BEBEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A35EA8-0407-4BF7-9051-A8840E5AC60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A35EA8-0407-4BF7-9051-A8840E5AC60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A35EA8-0407-4BF7-9051-A8840E5AC60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A35EA8-0407-4BF7-9051-A8840E5AC60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB3D4B1-8ECF-498A-8BF1-6B6F38CE4417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB3D4B1-8ECF-498A-8BF1-6B6F38CE4417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB3D4B1-8ECF-498A-8BF1-6B6F38CE4417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB3D4B1-8ECF-498A-8BF1-6B6F38CE4417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
