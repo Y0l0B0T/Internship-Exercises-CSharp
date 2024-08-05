@@ -4,4 +4,4 @@
 3. PC ( Inheritance Practice )
 4. Game ( Guess Number Game )
 5. GameNet ( Abstract Practice )
-6. GameClub ( Not Yet Complete !! )
+6. GameClub ( Fixed! ) ( Need more Training... )
